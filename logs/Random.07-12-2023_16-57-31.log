@@ -1,0 +1,6 @@
+[07-12-2023 16:57:36.339 INFO Bussiness.Schedule] - Schedule_01 - Step 01: Open dashboard page
+[07-12-2023 16:57:36.350 INFO Bussiness.Schedule] - Schedule_01 - Step 02: Click Bussiness icon
+[07-12-2023 16:57:38.331 INFO Bussiness.Schedule] - Schedule_01 - Step 03: Click Schedule link
+[07-12-2023 16:57:42.076 INFO Bussiness.Schedule] - Schedule_01 - Step 04: Click icon Thêm mới
+[07-12-2023 16:57:42.218 INFO Bussiness.Schedule] - Schedule_01 - Step 05: Input to Ngày học textbox
+[07-12-2023 16:57:42.780 INFO Bussiness.Schedule] - Schedule_01 - Step 06: Input to Thời gian textbox

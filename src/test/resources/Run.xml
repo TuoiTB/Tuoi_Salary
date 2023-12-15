@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Salary - UI Automation">
+    <parameter name="url" value="http://10.11.10.13:8101/"/>
+
+    <listeners>
+        <listener class-name="commons.MethodListener"/>
+        <listener class-name="reportConfig.AllureTestListener"/>
+    </listeners>
+
+    <test name="Run on Chrome" preserve-order="true">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class
+                    name="Bussiness.Schedule"/>
+        </classes>
+    </test>
+</suite>
